@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home - DenMak</title>
+  </head>
+  <body>
+
+<!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fs-1" href="#">Den<span style="color: #1FE561">Mak</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-5 active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="/category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="/page.html">Page</a>
+          </li>
+          <li class="nav-item me-sm-5">
+            <a class="nav-link fs-5" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <input type="text" name="search" class="form-control" value="search..." id="searchInput" style="display: none;">
+          </li>
+          <li class="nav-item ms-lg-5">
+            <a class="nav-link fs-5" href="#" id="searchIcon"><i class="bi bi-search"></i></a>
+          </li>
+          <li class="nav-item ms-lg-5">
+            <a class="nav-link fs-5" href="/admin.html">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+ <!-- End of Navbar -->
+
+
+<section id="index">
+
+<!-- hero-blog -->
+<section class="container my-5 py-2" id="hero-blog">
+    <div class="row container-fluid justify-content-center">
+        <h3 class="fw-bold h3 my-3">DenMak Blog</h3>
+
+        <div class="col-12 col-md-4 my-3">
+            <div class="position-relative text-light">
+                <img src="/images/blog-img-2.jpg" alt="image" class="w-100">
+                <div id="blurred" class="position-absolute bottom-0 start-0 w-100 p-2 opacity-75 bg-dark">
+                  <a href="#" class="text-decoration-none text-white">
+                    <p class="fw-bold h5">On Focus: Fashion</p>
+                    <p class="small">By Jona / 10 May 2021</p>
+                  </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 my-3">
+            <div class="position-relative text-light">
+                <img src="/images/blog-img.jpg" alt="image" class="w-100">
+                <div id="blurred" class="position-absolute bottom-0 start-0 w-100 p-2 opacity-75 bg-dark">
+                  <a href="#" class="text-decoration-none text-white">
+                    <p class="fw-bold h5">Hair Week: Sleek hair</p>
+                    <p class="small">By Sena / 23 Sep 2021</p>
+                  </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 my-3">
+            <div class="position-relative text-light">
+                <img src="/images/blog-img-1.jpg" alt="image" class="w-100">
+                <div id="blurred" class="position-absolute bottom-0 start-0 w-100 p-2 opacity-75 bg-dark">
+                  <a href="#" class="text-decoration-none text-white">
+                    <p class="fw-bold h5">Front-End: Act of Coding</p>
+                    <p class="small">By Johnson / 04 June 2021</p>
+                  </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+</section>
+<!-- End of hero-blog -->
+
+<!-- Blogs -->
+    <section id="category-blog-index">
+        <h3 class="container h3 fw-bold mb-5">Recent Blogs <i class="bi bi-align-start mx-3" style="color: #F88F06;"></i></h3>
+        <div class="row container-fluid justify-content-lg-around justify-content-center">
+        <!-- Most recent blog section -->
+        <div class="col-lg-7 col-md-10 col-12">
+            <div class="d-flex flex-row">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-8.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Photography | 10 Nov 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                        <p class="fw-bold h4">Elegance and Beauty <br> The age of success</p>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-7.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Photography | 01 July 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                          <p class="fw-bold h4">Love is just a <br> four letter world</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-row">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-6.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Hair goals | 22 Dec 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                          <p class="fw-bold h4">A thirst for long <br> and sleeky hairstyles</p>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-5.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Modeling | 20 March 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                          <p class="fw-bold h4">The act of modeling <br> A modern menace</p>
+                      </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-row">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-1.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Fashion | 17 Jan 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                        <p class="fw-bold h4">Embodiment & Courage <br> Fundamentals of Fashion</p></a>
+                    </div>
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-2.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Hair & Fashion | 15 Sep 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                        <p class="fw-bold h4">To find your desired look <br> search within</p></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-row">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-3.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Mobile App Dev | 03 May 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                        <p class="fw-bold h4">In just a click <br> build your dream app</p></a>
+                    </div>
+
+                    <div class="col-12 col-sm-9 col-md-6 my-5">
+                        <img src="/images/recent-4.jpg" class="w-100" alt="image">
+                        <p class="small text-muted">Branding | 10 Nov 2021</p>
+                        <a href="#" class="text-decoration-none text-dark">
+                        <p class="fw-bold h4">Efforless branding <br> the age of success</p></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End of main blog section -->
+
+        <!-- Side bar -->
+        <div class="col-lg-4 col-md-9 col-sm-9 col-12">
+          <!-- search -->
+          <div class="form-group p-3" style="background-color: #FBF2EE;">
+            <input type="search" class="form-control" name="search" placeholder="enter keyword(s)">
+            <input type="submit" value="Search" name="search" class="mt-2 text-light btn form-control" style="background-color: #FC4600;">
+          </div>
+
+          <!-- Categories -->
+          <div class="d-flex flex-row my-5 p-3" style="background-color: #FBF2EE;">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <p class="fw-bold my-4 h5">Categories</p>
+            </div>
+
+            <div class="col-12 my-3">
+              <div class="input-group">
+                <input type="text" placeholder="Fashion" class="form-control ps-3 bg-light" disabled>
+                <a href="#" class="text-decoration-none"><span class="input-group-text">12</span></a>
+              </div>
+            </div>
+
+            <div class="col-12 my-3">
+              <div class="input-group">
+                <input type="text" placeholder="Culture" class="form-control ps-3 bg-light" disabled>
+                <a href="#" class="text-decoration-none"><span class="input-group-text">10</span></a>
+              </div>
+            </div>
+
+            <div class="col-12 my-3">
+              <div class="input-group">
+                <input type="text" placeholder="Web Design" class="form-control ps-3 bg-light" disabled>
+                <a href="#" class="text-decoration-none"><span class="input-group-text">20</span></a>
+              </div>
+            </div>
+
+            <div class="col-12 my-3">
+              <div class="input-group">
+                <input type="text" placeholder="Hair & Fashion" class="form-control ps-3 bg-light" disabled>
+                <a href="#" class="text-decoration-none"><span class="input-group-text">11</span></a>           
+              </div>
+            </div>
+
+            <div class="col-12 my-3">
+              <div class="input-group">
+                <input type="text" placeholder="Front-End" class="form-control ps-3 bg-light" disabled>
+                <a href="#" class="text-decoration-none"><span class="input-group-text">18</span></a>
+              </div>
+            </div>
+
+            <div class="col-12 my-3">
+              <div class="input-group">
+                <input type="text" placeholder="Branding" class="form-control ps-3 bg-light" disabled>
+                <a href="#" class="text-decoration-none"><span class="input-group-text">04</span></a>
+              </div>
+            </div>
+
+          </div>
+          </div>
+
+          <!-- Popular Feed -->
+          <div class="d-flex flex-row my-5 p-3" style="background-color: #FBF2EE;">
+            <div class="row justify-content-center">
+              <div class="col-12"><p class="fw-bold my-4 h5">Popular Feed</p></div>
+              <div class="col-12 my-3">
+                <div><img src="/images/Rectangle 3.jpg" alt="image" class="w-100"></div>
+                <p class="text-muted small pt-2">By Michael / 30 Jan 2021</p>
+                <a href="#" class="text-decoration-none text-dark"><p class="fw-bold">The indigenous act of <br> modern photography</p></a>
+              </div>
+              <div class="col-12 my-3">
+                <div><img src="/images/Rectangle 4.jpg" alt="image" class="w-100"></div>
+                <p class="text-muted small pt-2">By Kennedy / 21 April 2021</p>
+                <a href="#" class="text-decoration-none text-dark"><p class="fw-bold">Front-end Coding
+                  <br> The life of a programmer</p></a>
+              </div>
+              <div class="col-12 my-3">
+                <div><img src="/images/Rectangle 5.jpg" alt="image" class="w-100"></div>
+                <p class="text-muted small pt-2">By Memuna / 18 Oct 2021</p>
+                <a href="#" class="text-decoration-none text-dark"><p class="fw-bold">Natural Hair Remedies</p></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="d-flex flex-row my-5 p-3" style="background-color: #FBF2EE;">
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <p class="fw-bold my-4 h5">Newsletter</p>
+                <hr style="width: 30%;">
+                <p>Far far away, behind the word mountains, a subscribe won't kill</p>
+              </div>
+              <div class="col-12 my-3">
+                <div class="form-group">
+                  <input type="search" class="form-control" name="search" placeholder="email address">
+                  <input type="submit" value="subscribe" name="subscribe" class="mt-2 text-light btn form-control" style="background-color: #FC4600;">
+                </div>
+              </div>
+          </div>
+
+        </div>
+        <!-- End of side bar -->
+      </div>
+      </div>
+    </section>
+<!-- End of blogs -->
+
+<!-- Gallery Section -->
+<section class="container my-5 py-3">
+    <h3 class="display-6 fw-bold py-2">Gallery</h3>
+
+    <!-- Small screens -->
+    <div id="carouselExampleControls" class="carousel slide carousel-fade d-block d-md-none" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div data-bs-interval="2000" class="carousel-item active">
+            <img src="/images/Rectangle 6.jpg" alt="image" class="w-100">
+          </div>
+          <div data-bs-interval="2000" class="carousel-item">
+            <img src="/images/Rectangle -1.jpg" alt="image" class="w-100">
+          </div>
+          <div data-bs-interval="2000" class="carousel-item">
+            <img src="/images/Rectangle 6.jpg" alt="image" class="w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Large screens -->
+    <div id="slide_gallery" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+              <div class="row justify-content-center">
+                  <div class="col-11 col-md-4">
+                      <img src="/images/Rectangle 6.jpg" alt="image" class="w-100">
+                  </div>
+                  <div class="col-11 col-md-4">
+                      <img src="/images/Rectangle -1.jpg" alt="image" class="w-100">
+                  </div>
+                  <div class="col-11 col-md-4">
+                      <img src="/images/Rectangle -2.jpg" alt="image" class="w-100">
+                  </div>
+              </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="2000">
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-4">
+                    <img src="/images/Rectangle -1.jpg" alt="image" class="w-100">
+                </div>
+                <div class="col-11 col-md-4">
+                    <img src="/images/Rectangle -2.jpg" alt="image" class="w-100">
+                </div>
+                <div class="col-11 col-md-4">
+                    <img src="/images/Rectangle 6.jpg" alt="image" class="w-100">
+                </div>
+            </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="2000">
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-4">
+                    <img src="/images/Rectangle -2.jpg" alt="image" class="w-100">
+                </div>
+                <div class="col-11 col-md-4">
+                    <img src="/images/Rectangle 6.jpg" alt="image" class="w-100">
+                </div>
+                <div class="col-11 col-md-4">
+                    <img src="/images/Rectangle -1.jpg" alt="image" class="w-100">
+                </div>
+            </div>
+           </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide_gallery" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide_gallery" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+</section>
+<!-- End of galllery section -->
+
+<!-- Footer -->
+<footer style="background-color: #000000;" class="text-center text-light py-5">
+  <p class="display-6 fw-bold">DenMak Media</p>
+  <p class="h5">Creativity at its peak</p>
+  <div class="py-3 fs-2">
+    <p class="text-center mt-3 py-2 h5">Our Social Media</p>
+    <center><hr class="w-25 mb-3"></center>
+    <a href="#" class="mx-3 text-primary"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="mx-3 text-danger"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="mx-3 text-success"><i class="bi bi-whatsapp"></i></a>
+    <a href="#" class="mx-3 text-info"><i class="bi bi-twitter"></i></a>
+</div>
+  <center><hr class="w-75 my-5"></center>
+  <p class="h6">Copyright &copy; 2021 DenMak Media | All Rights Reserved</p>
+</footer>
+<!-- End of Footer -->
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</body>
+</html>
