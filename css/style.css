@@ -1,0 +1,93 @@
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#index #hero-blog {
+  padding-top: 100px !important;
+}
+
+#index #category-blog-index {
+  margin-top: 130px;
+}
+
+#page #single-hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/images/hero-bg-1.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/images/hero-bg-1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-top: 70px;
+}
+
+#page #single-hero h1 {
+  padding-top: 150px !important;
+}
+
+#page #category-blog-page {
+  margin-top: 150px;
+}
+
+#contact #category-hero-contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/images/hero-bg-2.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/images/hero-bg-2.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-top: 70px;
+}
+
+#contact #category-hero-contact h1 {
+  padding-top: 150px !important;
+}
+
+#contact #category-blog-contact {
+  margin-top: 130px;
+}
+
+#contact #form input:focus, #contact #form textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #FC4600 !important;
+}
+
+#category #category-hero-category {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/images/hero-bg.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/images/hero-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-top: 70px;
+}
+
+#category #category-hero-category h1 {
+  padding-top: 150px !important;
+}
+
+#category #category-blog-category {
+  margin-top: 130px;
+}
+
+#admin #category-hero-admin {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/images/hero-bg-3.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/images/hero-bg-3.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-top: 70px;
+}
+
+#admin #category-hero-admin h1 {
+  padding-top: 150px !important;
+}
+
+#admin #form input:focus, #admin #form textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #FC4600 !important;
+}
+/*# sourceMappingURL=style.css.map */

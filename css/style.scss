@@ -1,0 +1,79 @@
+@import "mixins";
+
+// Global Styles
+.navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+
+// Index section
+#index{
+    #hero-blog{
+        padding-top: 100px !important;
+    }
+    
+    #category-blog-index{
+    margin-top: 130px;
+    }
+
+}
+
+// Pages section
+#page{
+    #single-hero{
+        @include background("/images/hero-bg-1.jpg");
+
+        h1{
+        padding-top: 150px !important;
+        }
+    }   
+    
+    #category-blog-page{
+    margin-top: 150px;
+    }
+}
+
+// Contact section
+#contact{
+    #category-hero-contact{
+        @include background("/images/hero-bg-2.jpg");
+        h1{
+        padding-top: 150px !important;
+        }
+    }
+    
+    #category-blog-contact{
+    margin-top: 130px;
+    }
+
+    @include formOnFocus();
+}
+
+// Category section
+#category{
+    #category-hero-category{
+       @include background("/images/hero-bg.jpg");
+        h1{
+            padding-top: 150px !important;
+        }
+    }
+    
+    #category-blog-category{
+    margin-top: 130px;
+    }
+    
+}
+
+// Admin section
+#admin{
+    #category-hero-admin{
+       @include background("/images/hero-bg-3.jpg");
+
+        h1{
+        padding-top: 150px !important;
+        }
+        
+    }
+
+    @include formOnFocus();
+}

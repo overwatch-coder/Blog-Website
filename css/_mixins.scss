@@ -1,0 +1,16 @@
+@mixin background($url){
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url($url) 
+    no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    margin-top: 70px;
+}
+
+@mixin formOnFocus(){
+    #form input:focus, #form textarea:focus{
+        box-shadow: none;
+        border-bottom: 1px solid #FC4600 !important;
+        }
+}
